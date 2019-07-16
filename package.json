@@ -1,0 +1,21 @@
+{
+  "name": "irctc-pnr-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "pnr": "./index.js"
+  },
+  "keywords": [],
+  "author": "Robin Tom <robin.tom.73@gmail.com> (https://robintom.dev/)",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cli-table3": "^0.5.1",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}
